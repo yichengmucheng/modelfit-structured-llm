@@ -1,0 +1,63 @@
+# secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# 模型权重与序列化产物（体积大，且可能缓存训练样本）
+*.pkl
+*.ckpt
+*.pt
+*.pth
+*.joblib
+
+# 真实业务样本 / 部署产物，不入库
+结构化大模型/tabpfn部署文件new/
+
+# 本地 Demo 服务状态
+.demo-server.state
+
+# OS / Office 临时文件
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Node
+node_modules/
+dist/
+
+# 论文 PDF（体积较大，非产品代码）
+*.pdf
+
+# 业务样本、内部汇报（可能含真实特征/客户数据）
+*.pptx
+结构化大模型/*.xlsx
+结构化大模型/demo-latest/*.xlsx
+!结构化大模型/LDM项目管理规划最终版.xlsx
+!LDM项目管理规划最终版.xlsx
+
+# 上游 TabPFN 开源库（Prior Labs），本仓库只保留产品侧文件
+TabPFN-main/src/
+TabPFN-main/tests/
+TabPFN-main/examples/
+TabPFN-main/scripts/
+TabPFN-main/changelog/
+TabPFN-main/.github/
+TabPFN-main/.gemini/
+TabPFN-main/.pre-commit-config.yaml
+TabPFN-main/pyproject.toml
+TabPFN-main/CHANGELOG.md
+TabPFN-main/LICENSE
+TabPFN-main/README.md
+TabPFN-main/SECURITY.md
+TabPFN-main/TELEMETRY.md
+TabPFN-main/THIRD-PARTY-NOTICES.md
+TabPFN-main/.gitignore

@@ -1,0 +1,1 @@
+import{_ as t,g as e,h as o}from"./index-038721bb.js";const _={class:"root-entry-placeholder","aria-hidden":"true"},n=Object.assign({name:"RootEntry"},{__name:"RootEntry",setup(r){return(s,a)=>(e(),o("div",_))}}),p=t(n,[["__scopeId","data-v-7e58199b"]]);export{p as default};

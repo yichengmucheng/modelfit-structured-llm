@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "generated_with": {
+    "pkl_sha256": "ae20bc6833ad921b8f9375f53e83e7c977f04f7fd6467b9fe4c3f99862c34f6a",
+    "tabpfn_version": "8.0.6",
+    "dtype": "float32",
+    "device": "cpu"
+  },
+  "tolerance": {
+    "proba_abs_fp32": 0.0,
+    "proba_abs_bf16": 0.006,
+    "score_exact_fp32": true
+  },
+  "cases": [
+    {
+      "input": {
+        "apply_age": 0.08271848286022765,
+        "credit_score": -0.473068703990416,
+        "loan_amount": 3.1802011265987264,
+        "income_monthly": -1.3683311576366952,
+        "debt_ratio": -0.628298651943709,
+        "overdue_30d_cnt": 1.7820241127014727,
+        "overdue_60d_cnt": -0.36888310293702387,
+        "query_cnt_3m": 0.410127793727618,
+        "query_cnt_6m": 4.64029884186918,
+        "card_cnt": -3.2098699260907724,
+        "loan_cnt": 1.4634356542609945,
+        "repay_ratio": -0.5180624570291291,
+        "util_rate": 4.4097495395592565,
+        "max_overdue_days": -0.029507598619071266,
+        "job_stability": -0.45040489207493195,
+        "edu_level": 0.7990457294247508,
+        "region_risk": 1.6263840810471124,
+        "biz_type": 1.0876511552906136,
+        "asset_score": -0.20135817815741586,
+        "behavior_score": 0.018118477625871335
+      },
+      "expected_proba": [
+        0.995191,
+        0.004809
+      ]
+    }
+  ]
+}

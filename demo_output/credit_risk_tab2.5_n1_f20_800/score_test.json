@@ -1,0 +1,80 @@
+[
+  {
+    "input": {
+      "prob": 0.020772729068994522
+    },
+    "output": {
+      "score": 314
+    },
+    "metadata": {
+      "target_min": 300,
+      "target_max": 999,
+      "mode": "L"
+    }
+  },
+  {
+    "input": {
+      "prob": 0.0006650875438936055
+    },
+    "output": {
+      "score": 300
+    },
+    "metadata": {
+      "target_min": 300,
+      "target_max": 999,
+      "mode": "L"
+    }
+  },
+  {
+    "input": {
+      "prob": 2.6309375243727118e-05
+    },
+    "output": {
+      "score": 300
+    },
+    "metadata": {
+      "target_min": 300,
+      "target_max": 999,
+      "mode": "L"
+    }
+  },
+  {
+    "input": {
+      "prob": 0.020772729068994522
+    },
+    "output": {
+      "score": 985
+    },
+    "metadata": {
+      "target_min": 300,
+      "target_max": 999,
+      "mode": "H"
+    }
+  },
+  {
+    "input": {
+      "prob": 0.0006650875438936055
+    },
+    "output": {
+      "score": 999
+    },
+    "metadata": {
+      "target_min": 300,
+      "target_max": 999,
+      "mode": "H"
+    }
+  },
+  {
+    "input": {
+      "prob": 2.6309375243727118e-05
+    },
+    "output": {
+      "score": 999
+    },
+    "metadata": {
+      "target_min": 300,
+      "target_max": 999,
+      "mode": "H"
+    }
+  }
+]

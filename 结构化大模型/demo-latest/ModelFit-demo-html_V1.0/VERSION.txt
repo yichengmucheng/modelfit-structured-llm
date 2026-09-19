@@ -1,0 +1,5 @@
+BuildTime: 2026-07-09 18:50:00
+Entry: run-demo.cmd (right-click -> Run as administrator)
+Fix: flash window / use ASCII run-demo.cmd for UAC
+Port: 80
+URL: http://modelfit-demo.brgroup.com/#/login

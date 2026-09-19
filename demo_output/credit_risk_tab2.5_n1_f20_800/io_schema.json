@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "inputs": [
+    {
+      "name": "apply_age",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "credit_score",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "loan_amount",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "income_monthly",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "debt_ratio",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "overdue_30d_cnt",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "overdue_60d_cnt",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "query_cnt_3m",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "query_cnt_6m",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "card_cnt",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "loan_cnt",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "repay_ratio",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "util_rate",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "max_overdue_days",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "job_stability",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "edu_level",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "region_risk",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "biz_type",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "asset_score",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    },
+    {
+      "name": "behavior_score",
+      "dtype": "numeric",
+      "required": true,
+      "missing_allowed": true
+    }
+  ],
+  "outputs": {
+    "classes": [
+      0,
+      1
+    ],
+    "positive_class": 1,
+    "positive_class_meaning": "default / bad",
+    "n_classes": 2
+  }
+}

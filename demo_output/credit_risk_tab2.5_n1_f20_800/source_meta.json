@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "pkl_sha256": "ae20bc6833ad921b8f9375f53e83e7c977f04f7fd6467b9fe4c3f99862c34f6a",
+  "captured_at": "2026-06-07T12:11:49Z",
+  "env_capture": "single-env workflow: train env == capture env",
+  "source": {
+    "kind": "LDM-tn",
+    "tabpfn_version": "8.0.6",
+    "sklearn_version": "1.7.1",
+    "numpy_version": "1.26.4",
+    "python_version": "3.12.7",
+    "torch_version": "2.6.0+cpu"
+  },
+  "shape": {
+    "n_estimators": 1,
+    "n_features": 20,
+    "n_train_rows": 800
+  },
+  "naming": {
+    "business_scene": "credit_risk",
+    "n": 1,
+    "f": 20,
+    "rows": 800
+  }
+}
