@@ -1,5 +1,7 @@
 # ModelFit · 结构化大模型建模平台
 
+[![GitHub](https://img.shields.io/badge/GitHub-yichengmucheng%2Fmodelfit--structured--llm-181717?logo=github)](https://github.com/yichengmucheng/modelfit-structured-llm)
+
 > 把预训练表格大模型做成分析师可自助使用的风控建模产品：分钟级出基线模型，标准化模型包跨平台迁移后打分零误差，客户通过实时 API 调用信用分。
 
 ModelFit（内部称**百擎**）面向金融风控分析师。它用表格上下文学习替代传统评分卡 / 树模型的「特征工程 + 调参 + 数周上线」，把 **数据准备 → 建模 → 评估 → 发布 → GPU 推理部署 → 客户 API 打分** 收成一条可审计的产品链路。
